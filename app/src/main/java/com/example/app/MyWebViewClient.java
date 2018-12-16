@@ -9,7 +9,7 @@ public class MyWebViewClient extends WebViewClient {
 
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        if (Uri.parse(url).getHost().endsWith("https://www.knows1.com/")) {
+        if (Uri.parse(url).getHost().endsWith("www.knows1.com")) {
             return false;
         }
 
